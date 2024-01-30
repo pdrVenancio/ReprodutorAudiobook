@@ -9,11 +9,16 @@ body {
 }
 
 .container-aplicativo {
+  background-color: #3b1566;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 30px;
 }
-
+.container-aplicativo #capa{
+  border-radius: 10%;
+}
 button {
   background-color: inherit;
   color: inherit;
